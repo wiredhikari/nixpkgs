@@ -13,11 +13,11 @@
 
 buildPythonPackage rec {
   pname = "fasteners";
-  version = "0.16.3";
+  version = "0.17.3";
 
   src = fetchPypi {
     inherit pname version;
-    sha256 = "b1ab4e5adfbc28681ce44b3024421c4f567e705cc3963c732bf1cba3348307de";
+    sha256 = "sha256-qaQqIIVz1AdMd9BBRHM2z048E4miVv0+ET71nPKbeYA=";
   };
 
   propagatedBuildInputs = [
