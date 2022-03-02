@@ -2,14 +2,14 @@
 
 buildPythonPackage rec {
   pname = "ordered-set";
-  version = "4.0.2";
+  version = "4.1.0";
   disabled = isPy27;
 
   checkInputs = [ pytest ];
 
   src = fetchPypi {
     inherit pname version;
-    sha256 = "159syfbqnwqnivzjfn3x7ak3xwrxmnzbji7c2qhj1jjv0pgv54xs";
+    sha256 = "sha256-aUqORMh2V8WSku3nKJHrkdNBMfZTFGOqswCRkcdzZKg=";
   };
 
   checkPhase = ''
