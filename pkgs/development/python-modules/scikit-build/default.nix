@@ -25,11 +25,11 @@
 
 buildPythonPackage rec {
   pname = "scikit-build";
-  version = "0.12.0";
+  version = "0.13.1";
 
   src = fetchPypi {
     inherit pname version;
-    sha256 = "f851382c469bcd9a8c98b1878bcfdd13b68556279d2fd9a329be41956ae5a7fe";
+    sha256 = "sha256-XRd0ousVmI4IHFgsJUq0qXUgluajTyNUEct5vWFmDDc=";
   };
 
   propagatedBuildInputs = [
