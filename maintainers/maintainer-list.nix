@@ -13555,6 +13555,12 @@
     githubId = 42300264;
     name = "wishfort36";
   };
+  wiredhikari = {
+    email = "atharvaamritkar@protonmail.com"
+    github = "wiredhikari"
+    githubId = "81508805"
+    name = "Atharva Amritkar";
+  };
   wizeman = {
     email = "rcorreia@wizy.org";
     github = "wizeman";
