@@ -1200,6 +1200,8 @@ with pkgs;
 
   ttchat = callPackage ../tools/misc/ttchat { };
 
+  tuxfetch = callPackage ../tools/misc/tuxfetch { };
+
   veikk-linux-driver-gui = libsForQt5.callPackage ../tools/misc/veikk-linux-driver-gui { };
 
   ventoy-bin = callPackage ../tools/cd-dvd/ventoy-bin { };
